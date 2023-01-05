@@ -76,10 +76,12 @@ main p{
     font-size: 1.5em;
     margin: 0px 15px 0px 15px;
     text-indent: 20px;
+    line-height: 1.5em;
 }
 
 
 body{
+    margin: 0px;
     background-color: #002C45;
 }
 
@@ -90,22 +92,23 @@ footer{
 }
 
 .pic{
-    margin-left: 10px;
-    margin-top: 10px;
+    display: block;
+    margin: auto;
     max-width: 200px;
-    max-height: 250px;
-    border: 5px;
+    max-height: 250px; 
+    padding: 5px;
     
 }
-div.conteiner{
-    display: flex;
- 
-}
 
-.line{
-    margin: 10px;
-    text-indent: 15px;
-}
+h2 {
+    text-align: center;
+    font-size: 1.5em;
+    padding: 10px 0px;
+} 
+ 
+
+
+
 div.conteiner2{
     display: block;
     margin: 10px 25px;
@@ -114,13 +117,20 @@ div.conteiner2{
 
 }
 
-#lista{
-        display: block;
-        position: fixed;
-        text-align: center;
-        top: 30%;
-        width: auto;
-        margin-top: -2.5em;
+aside{
+    text-align: center;
+    margin: 0px 15px;
+}
+
+aside ul{
+        list-style: none;
+        display: inline-box;
+        columns: 2;
+        margin: auto;
+        padding-left: 20%;
+        padding-right: 20%;
+              
+        font-size: 1.5em;
       }
 
 ul a{
