@@ -125,6 +125,7 @@ div.conteiner2{
 table{
     margin: auto;
     border-collapse: collapse;
+    width: 200px;
     
     
 }
@@ -135,7 +136,6 @@ td{
     border: 2px solid black;
     font-family: 'Times New Roman', Times, serif;
     font-size: 1.5em;
-    width: 200px;
     text-align: center;
     margin: auto;
     
