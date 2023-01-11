@@ -125,7 +125,7 @@ div.conteiner2{
 table{
     margin: auto;
     border-collapse: collapse;
-    width: auto;
+    
     
 }
 
@@ -135,8 +135,9 @@ td{
     border: 2px solid black;
     font-family: 'Times New Roman', Times, serif;
     font-size: 1.5em;
-    width: 100%;
+    width: 200px;
     text-align: center;
+    margin: auto;
     
 
 }
@@ -150,7 +151,7 @@ td > a{
 
 td > a:hover{
            
-    font-weight: bold;
+    font-weight: bolder;
     text-decoration: underline;
     
 }
