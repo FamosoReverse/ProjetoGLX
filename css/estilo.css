@@ -26,11 +26,13 @@ header{
     height: auto;
     background-image: linear-gradient(to bottom, var(--cor1), black);
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.233);
+    padding-top: 30px;
+    padding-bottom: 10px;
 
 }
 header img{
-    max-width: 60px;
-    max-height: 60px;
+    max-width: 70px;
+    max-height: 70px;
     display: block;
     margin: auto;
     padding-top: 25px;
@@ -38,8 +40,9 @@ header img{
 }
 
 nav{
-    padding-bottom: 10px;
-    padding-left: 25px;
+    padding-left: 30px;
+    font-size: 1.5em;
+
     
 }
 
@@ -47,7 +50,7 @@ header nav a {
     text-decoration: none;
     color: var(--cor0);
     margin-left: 10px;
-    padding: 5px 2px 10px 2px;
+   
 }
 
 nav > a:hover{
@@ -102,8 +105,10 @@ footer{
 
 h2 {
     text-align: center;
-    font-size: 1.5em;
-    padding: 10px 0px;
+    font-size: 5em;
+    padding: 15px 0px;
+    font-family: var(--fonte-destaque);
+
 } 
  
 
@@ -117,31 +122,33 @@ div.conteiner2{
 
 }
 
-aside{
-    text-align: center;
-    margin: 0px 15px;
+table{
+    margin: auto;
+    border-collapse: collapse;
+    
 }
 
-aside ul{
-        list-style: none;
-        display: inline-box;
-        columns: 2;
-        margin: auto;
-        padding-left: 20%;
-        padding-right: 20%;
-              
-        font-size: 1.5em;
-      }
 
-ul a{
+td{
+    padding: 5px 10px;
+    border: 2px solid black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2em;
+    width: 300px;
+    text-align: center;
+    
+
+}
+
+td > a{
     text-decoration: none;
     color: var(--cor1);
 
 
 }
 
-ul  a:hover{
-    background-color: rgba(255, 255, 255, 0);
+td > a:hover{
+           
     font-weight: bold;
     text-decoration: underline;
     
