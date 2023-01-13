@@ -125,6 +125,8 @@ div.conteiner2{
 table{
     
     border-collapse: collapse;    
+    display: inline-block;
+    margin: auto;
     
     
 }
@@ -155,9 +157,6 @@ td > a:hover{
     
 }
 
-.ajuste{
-    display: block;
-    margin: auto;
-}
+
 /*versão ultima */
 
