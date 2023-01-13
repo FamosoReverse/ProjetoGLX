@@ -125,8 +125,13 @@ div.conteiner2{
 table{
     
     border-collapse: collapse;    
-    display: inline-block;
+    border: 1px solid black;
+    
     margin: auto;
+    margin-left: 50%;
+    margin-right: 50%;
+    transform: translate(-50%);
+    
     
     
 }
