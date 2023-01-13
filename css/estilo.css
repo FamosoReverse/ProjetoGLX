@@ -112,29 +112,15 @@ h2 {
 } 
  
 
-
-
-div.conteiner2{
-    display: block;
-    margin: 10px 25px;
-    font-family: var(--fonte-padrao);
-    font-size: 1.5em;
-
-}
-
 table{
+
+border-collapse: collapse;
+display: table;
+margin: auto;
+
     
-    border-collapse: collapse;    
-    border: 1px solid black;
-    display: inline-block;
-    
-    
-    margin-left: 50%;
-    margin-right: 50%;
-    transform: translate(-50%);
-    
-    
-    
+ 
+
 }
 
 
@@ -144,6 +130,7 @@ td{
     font-family: 'Times New Roman', Times, serif;
     font-size: 1.5em;
     text-align: center;
+    
 
     
 
