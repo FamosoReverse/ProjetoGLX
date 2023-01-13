@@ -123,8 +123,10 @@ div.conteiner2{
 }
 
 table{
+    display: block;
     border-collapse: collapse;    
     padding: 5px 5px;
+    margin: auto;
     
 }
 
