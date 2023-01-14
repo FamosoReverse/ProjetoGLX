@@ -110,13 +110,19 @@ h2 {
     font-family: var(--fonte-destaque);
 
 } 
+
+aside{
+    display: table;
+    margin: auto;
+    max-width: 400px;
+    padding: 10px;
+}
  
 
 table{
 
 border-collapse: collapse;
-display: table;
-margin: auto;
+
 
     
  
