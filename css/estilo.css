@@ -22,8 +22,13 @@
 --fonte-destaque: 'Gamer';
 }
 
+html{
+    height: 100vh;
+    width: 100vw;
+}
+
 header{
-    height: auto;
+    height: 100%;
     background-image: linear-gradient(to bottom, var(--cor1), black);
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.233);
     padding-top: 30px;
@@ -35,33 +40,104 @@ header img{
     max-height: 70px;
     display: block;
     margin: auto;
-    padding-top: 25px;
-    padding-bottom: 5px;
+    padding: 10px;
+
+}
+
+
+
+
+nav > ul > li{
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+    display: inline;
+    padding: 5px;
+    text-align: center;
+    float: left;
+    font-size: 1.2em;
+    
+    
+    
+    
+} 
+
+.menu li{
+    position: relative;
+    float: left;
+   
+    
+    
 }
 
 nav{
-    padding-left: 30px;
-    font-size: 1.5em;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+nav > ul > li > a{
+    text-align: center;
+    
+    font-size: 1.3em;
+    display: block;
+    border: 2px solid white;
+    padding: 3px;
+     
+}
+
+
+
+
+.menu li a:hover{
+    display: block;
+    background-color: white;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.menu li ul{
+    position: absolute;
+    top: 32px;
+    left: 0px;
+    display: none;
+    
+}
+
+.menu li:hover ul, .menu li.over ul{
+    display: block;
+    background-color: #002A5C;
 
     
 }
 
-header nav a { 
-    text-decoration: none;
-    color: var(--cor0);
+.menu li ul li{
+    border: 1px solid black;
+    display: block;
+    width: 150px;
+    font-size: 0.8em;
+    border: 1px solid black;
+    
+}
+
+nav.p2 a{
+    font-size: 1.3em;
+    padding: 3px;
     margin-left: 10px;
-   
+    border: 2px solid white;
+    text-align: center;
+    
 }
 
-nav > a:hover{
-    background-color: var(--cor4);
-
+nav.p2 > a:hover{
+    background-color: white;
+    color: black;
+    display: inline-block;
 }
-
 main{
    background-image: linear-gradient(to bottom, white, rgba(212, 210, 210, 0.507));
    margin: 0px 30px 0px 30px;
-   height: 800px;
+   height: 85vh;
    border-bottom-left-radius: 10px;
    border-bottom-right-radius: 10px;
    box-shadow: -1px 2px 5px rgba(0, 0, 0, 0.664);
@@ -80,6 +156,12 @@ main p{
     margin: 0px 15px 0px 15px;
     text-indent: 20px;
     line-height: 1.5em;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    
 }
 
 
@@ -160,3 +242,50 @@ td > a:hover{
 
 /*versão ultima */
 
+/*css do valorant */
+
+img#vava{
+    width: 200px;
+    height: 160px;
+    display: block;
+    margin: auto;
+    box-shadow: 0px 0px 5px black;
+    margin-bottom: 10px;
+    
+}
+
+ul#jogadores{
+    list-style-type: none;
+    display: inline-block;
+    padding-top: 20px;
+    font-family: var(--fonte-padrao);
+    font-size: 1.5em;
+    position: relative;
+    text-align: justify;
+    columns: 2;
+    max-width: 400px;
+    font-weight: bold;
+}
+
+
+
+
+ul#jogadores, ul#nick > li{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+
+    
+}
+
+ul#jogadores > li >a{
+    color: black;
+}
+ul#jogadores > li >a:hover{
+    background-color: rgb(131, 131, 131);
+    color: white;
+    border: 1px solid black;
+    cursor: pointer;
+    font-weight: bolder;
+    border-radius: 5px;
+}
